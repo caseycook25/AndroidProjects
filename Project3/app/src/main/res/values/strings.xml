@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Project3</string>
+    <string name="backgroundImage">backgroundImage</string>
+    <string name="action_settings">Settings</string>
+    <string name="summary">Select which site to get JSON data from</string>
+    <string name="no_internet_connection">You are not connected to the internet</string>
+
+    <string-array name="spinner_teton">
+        <item>Horace</item>
+        <item>Crumpet</item>
+        <item>Spot</item>
+    </string-array>
+
+    <string-array name="JSON_URL_NAME">
+        <item>CNU - Defender</item>
+        <item>Pair - Teton Software - Pets</item>
+    </string-array>
+    <string-array name="JSON_URL">
+        <item>http://www.pcs.cnu.edu/~kperkins/pets/</item>
+        <item>http://www.tetonsoftware.com/pets/</item>
+    </string-array>
+
+</resources>
