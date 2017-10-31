@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Project1</string>
+    <string name="money">$ 5</string>
+    <string name="instructions">$1 a Play</string>
+    <string name="winnings">Match 0 = less $1 Match 2 = win $2 Match 3 = win $3</string>
+    <string name="Go">Go</string>
+    <string name="dollar">dollar</string>
+    <string name="reset">reset</string>
+    <string name="flower1">flower1</string>
+    <string name="flower2">flower2</string>
+    <string name="flower3">flower3</string>
+</resources>

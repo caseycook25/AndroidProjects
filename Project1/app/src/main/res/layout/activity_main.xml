@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/flowers3"
+    android:scaleType="fitXY"
+    tools:context="com.example.cook01.project1.MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/go"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/Go"
+        android:onClick="doGoButton"
+        app:srcCompat="@drawable/go" />
+
+    <ImageView
+        android:id="@+id/dol"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginStart="15dp"
+        android:contentDescription="@string/dollar"
+        app:srcCompat="@drawable/dol" />
+
+    <ImageView
+        android:id="@+id/reset"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="15dp"
+        android:contentDescription="@string/reset"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/reset1"
+        android:onClick="doReset"/>
+
+    <TextView
+        android:id="@+id/moneyLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="45dp"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@id/dol"
+        android:text="@string/money"
+        android:textColor="@color/colorMoneyText"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/flow3"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/f3"
+        android:contentDescription="@string/flower3"
+        android:layout_toEndOf="@id/flow2"
+        android:layout_below="@id/textView"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="15dp"
+        />
+
+    <ImageView
+        android:id="@+id/flow1"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/f1"
+        android:contentDescription="@string/flower1"
+        android:layout_toStartOf="@id/flow2"
+        android:layout_marginEnd="15dp"
+        android:layout_below="@id/textView"
+    />
+
+    <ImageView
+        android:id="@+id/flow2"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/f2"
+        android:contentDescription="@string/flower2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/textView"
+        />
+
+    <TextView
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:lines="3"
+        android:text="@string/winnings"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/flow3" />
+
+    <TextView
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/instructions"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/flow1" />
+
+</RelativeLayout>
