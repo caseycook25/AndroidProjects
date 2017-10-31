@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Cook01\git\cpsc475\Project4\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6c468f350749c8464d738c4971d556a2a428e378">
+        <dex dex="C:\Users\Cook01\git\cpsc475\Project4\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_3842a0401c2aa5d8fa56be0ce6d4d97c2ba3c783\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Cook01\.android\build-cache\742a4b66cae072577a1e87884a1045cdaea6912b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\Cook01\git\cpsc475\Project4\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8cba6fdd13802f3771b09ea0ef885b22867f63dd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Cook01\git\cpsc475\Project4\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\Cook01\git\cpsc475\Project4\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_4ab5ee4ac1bf19ab52cd3fe400e116e7f61453ed\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Cook01\.android\build-cache\742a4b66cae072577a1e87884a1045cdaea6912b\output\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\Cook01\git\cpsc475\Project4\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.1.1_e1427cf57a6efeb4fe2721a1a3d28fb35c5465af\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Cook01\.android\build-cache\fb2354cb026aa4e9b37d047a0a2cce0bca17b45d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Users\Cook01\git\cpsc475\Project4\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d84388cfcc6f493909ab098cbb9c16ace83659ff\classes.dex" />
+    </item>
+
+</items>
